@@ -199,7 +199,7 @@ export default {
 
               google.maps.event.addListener(marker,"click", () => {
 
-                const URL = `https://corsanywhere.herokuapp.com/https://maps.googleapis.com/maps/api/place/details/json?key=${this.apiKey}&place_id=${placeID}`;
+                const URL = `https://corsanywhere.herokuapp.com/https://maps.googleapis.com/maps/api/place/details/json?key=${process.env.VUE_APP_API_KEY}&place_id=${placeID}`;
 
                 axios
                 .get(URL)
