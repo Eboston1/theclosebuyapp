@@ -1,4 +1,5 @@
 [build]
+ignore = "curl -H \"Authorization: token $GITHUB_PAT\" --request GET curl https://api.github.com/repos/:owner/:repo/commits/:sha/status | grep '...'"
 command = "npm run build"
 functions = "pages"
 "publish" = "build"
