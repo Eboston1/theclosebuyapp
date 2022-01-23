@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import UserLocation from 'src/pages/UserLocation'
-import CloseBuy from 'src/pages/CloseBuy'
+import UserLocation from '@/pages/UserLocation'
+import CloseBuy from '@/pages/CloseBuy'
 
 Vue.use(Router)
 
