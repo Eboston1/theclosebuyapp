@@ -1,5 +1,0 @@
-[build]
-ignore = "curl https://api.github.com/repos/netlify/build-image/pulls/$REVIEW_ID | grep '\"login\": \"tools-netlify\"'"
-command = "npm run build"
-functions = "pages"
-"publish" = "build"
